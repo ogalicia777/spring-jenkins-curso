@@ -13,7 +13,8 @@ public class SpringJenkinsCourseApplication {
 	public static Logger logger = LoggerFactory.getLogger(SpringJenkinsCourseApplication.class);
 	
 	@PostConstruct
-	public void intt() {
+	//public void intt() {
+	public intt() {
 		logger.info("Application started...");
 		
 		logger.info("Application started 2...");
